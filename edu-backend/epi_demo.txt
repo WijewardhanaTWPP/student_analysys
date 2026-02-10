@@ -1,0 +1,48 @@
+/api/enrollments:-
+
+{
+  "student_id": 1,
+  "course_id": 1
+}
+
+filter by student_id:- /api/enrollments?student_id=1
+filter by course_id:- /api/enrollments?course_id=1
+
+//////////////////////////////////////////////////////////////
+/api/scores:-
+
+{
+  "student_id": 1,
+  "course_id": 1,
+  "assessment_name": "Quiz 1",
+  "assessment_date": "2026-02-10",
+  "score": 78,
+  "max_score": 100
+}
+
+/api/scores?student_id=1&course_id=1
+
+//////////////////////////////////////////////////////////////////
+/api/attendance:-
+
+{
+  "student_id": 1,
+  "course_id": 1,
+  "attend_date": "2026-02-10",
+  "status": "present"
+}
+
+get studnet attendance:- /api/attendance/student/1?course_id=1
+
+//////////////////////////////////////////////////////////////////
+/api/participation:-
+
+{
+  "student_id": 1,
+  "course_id": 1,
+  "event_date": "2026-02-10",
+  "metric": "in_class",
+  "value": 1
+}
+
+get one studnet history:- /api/participation/student/1?course_id=1
