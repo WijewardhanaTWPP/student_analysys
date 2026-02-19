@@ -36,7 +36,7 @@ export default function Dashboard() {
     { title: "Enrollments", icon: <AssignmentIcon sx={{ fontSize: 40 }} />, path: "/enrollments", color: "#ed6c02" },
     { title: "Attendance", icon: <EventAvailableIcon sx={{ fontSize: 40 }} />, path: "/attendance", color: "#9c27b0" },
     { title: "Participation", icon: <EmojiEventsIcon sx={{ fontSize: 40 }} />, path: "/participation", color: "#0288d1" },
-    { title: "ML Predictions", icon: <AnalyticsIcon sx={{ fontSize: 40 }} />, path: "/predict", color: "#d32f2f" },
+    { title: "Predictions", icon: <AnalyticsIcon sx={{ fontSize: 40 }} />, path: "/predict", color: "#d32f2f" },
   ];
 
   return (
@@ -67,12 +67,12 @@ export default function Dashboard() {
         }}
       >
         <Container>
-          <Typography variant="h3" align="center" color="white" fontWeight="bold" gutterBottom sx={{ textShadow: '2px 2px 4px rgba(0,0,0,0.2)' }}>
+          <Typography variant="h3" align="center" color="#011385" fontWeight="bold" gutterBottom sx={{ textShadow: '2px 2px 4px rgba(0,0,0,0.2)' }}>
             Educational Analytics System
           </Typography>
 
-          <Typography variant="h6" align="center" color="white" sx={{ mb: 6, opacity: 0.9 }}>
-            Student Performance Monitoring & ML Prediction Platform
+          <Typography variant="h6" align="center" color="#0138c5" sx={{ mb: 6, opacity: 0.9 }}>
+            Student Performance Monitoring & Predicting
           </Typography>
 
           <Grid container spacing={4}>
